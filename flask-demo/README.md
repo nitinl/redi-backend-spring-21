@@ -1,8 +1,8 @@
-#Flask demo: Notes app
+# Flask demo: Notes app
 
-##Setup
+## Setup
 1. Install virtualenv `pip install virtualenv`
 2. Create a virtualenv and install Flask `pip install flask`
 
-##Running the program
+## Running the program
 `$python run.py`
