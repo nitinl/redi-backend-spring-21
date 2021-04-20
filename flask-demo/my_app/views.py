@@ -18,7 +18,7 @@ def sign_up():
     username = request_body['username']
 
     if utils.user_exists(username):
-        return make_response(jsonify(error=f"Username {username} already exists"), 400)
+        return make_response(jsonify(error=f"Username {username} already exists."), 400)
 
     # create a new directory for the user
     user_notes_folder = f'notes/{username}'
