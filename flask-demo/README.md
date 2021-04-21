@@ -1,4 +1,4 @@
-# Flask demo: Notes app
+# Flask demo: Notes app and Whatsapp
 
 ## Setup
 1. Install virtualenv `pip install virtualenv`
