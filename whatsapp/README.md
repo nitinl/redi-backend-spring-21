@@ -15,3 +15,10 @@ This app will allow:
    >>> db.create_all()
    ```
 3. Run the flask server `$python run.py`
+
+## Testing
+* Running the tests: `pytest --verbose`
+* For coverage, run: 
+1. `coverage -m pytest`
+2. `coverage html`
+3. Open `/htmlcov/index.html` in the browser
